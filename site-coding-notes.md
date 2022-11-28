@@ -14,7 +14,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)$ index.php?url=$1 [L,QSA]
 ```
-2. Add robots.txt file to disallow web crawlers from indexing the site (Google, Bing, ect..)
+2. Add robots.txt file to disallow web crawlers from indexing the site (Google, Bing, etc..)
 ```
 User-agent: *
 
