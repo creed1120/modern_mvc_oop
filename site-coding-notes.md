@@ -6,11 +6,18 @@
     - init.php
 
 ### Router
-1. Need a .htaccess file to redirect all traffic through the Index.php page
+1. Add .htaccess file to redirect all traffic through the Index.php page
 ```
 RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)$ index.php?url=$1 [L,QSA]
+```
+2. Add robots.txt file to disallow web crawlers from indexing the site (Google, Bing, ect..)
+```
+User-agent: *
+
+Disallow: /admin/
+Disallow: /ajax/
 ```
