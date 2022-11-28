@@ -2,8 +2,10 @@
 #### MVC Folder Structure
 1. App
     - app.php
-2. config
-    - init.php
+2. public
+    - .htaccess
+    - index.php
+    - robots.txt
 
 ### Router
 1. Add .htaccess file to redirect all traffic through the Index.php page
