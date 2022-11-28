@@ -18,6 +18,7 @@ RewriteRule ^(.+)$ index.php?url=$1 [L,QSA]
 ```
 > RewriteRule ^(.+)$ index.php?url<-(is the $_GET variable)=$1<-(paramater value) [L,QSA]
 
+
 2. Add robots.txt file to disallow web crawlers from indexing the site (Google, Bing, etc..)
 ```
 User-agent: *
