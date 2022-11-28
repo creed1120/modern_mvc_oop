@@ -1,4 +1,6 @@
 ## Site Coding Notes
 #### MVC Folder Structure
-> App
- - app.php
+1. App
+    - app.php
+2. config
+    - init.php
