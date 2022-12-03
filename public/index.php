@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern MVC OOP</title>
-</head>
-<body>
+<?php
 
-    <h1>Modern MVC OOP Application</h1>
-    
-</body>
-</html>
+session_start();
+
+// Loads all filed needed to run the application
+require('../app/core/init.php');
+
+$app = new App();
+$app->loadController();
