@@ -1,7 +1,21 @@
 ## Site Coding Notes
 #### MVC Folder Structure
 1. App
-    - app.php
+    - /controllers
+      _404.php
+      Home.php
+      Products.php
+    - /core
+      App.php
+      config.php
+      Controller.php
+      Database.php
+      functions.php
+      init.php
+      Model.php
+    - /models
+    - /views
+      404.view.php
 2. public
     - .htaccess
     - index.php
