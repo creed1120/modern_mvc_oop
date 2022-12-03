@@ -6,16 +6,16 @@
       - Home.php
       - Products.php
     - /core
-      App.php
-      config.php
-      Controller.php
-      Database.php
-      functions.php
-      init.php
-      Model.php
+      - App.php
+      - config.php
+      - Controller.php
+      - Database.php
+      - functions.php
+      - init.php
+      - Model.php
     - /models
     - /views
-      404.view.php
+      - 404.view.php
 2. public
     - .htaccess
     - index.php
