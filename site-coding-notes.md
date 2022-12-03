@@ -2,9 +2,9 @@
 #### MVC Folder Structure
 1. App
     - /controllers
-      -- _404.php
-      -- Home.php
-      -- Products.php
+      - _404.php
+      - Home.php
+      - Products.php
     - /core
       App.php
       config.php
