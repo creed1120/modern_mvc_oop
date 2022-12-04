@@ -1,6 +1,6 @@
 # Site Coding Notes
 
-#### MVC Folder Structure
+## MVC Folder Structure
 1. App
     - /controllers
       - _404.php
@@ -22,7 +22,7 @@
     - index.php
     - robots.txt
 
-### Router
+## Router
 1. Add .htaccess file to redirect all traffic through the Index.php page
 ```
 RewriteEngine On
@@ -41,6 +41,6 @@ Disallow: /admin/
 Disallow: /ajax/
 ```
 
-### How to load view files
+## How to load view files
   - Create a Controller under app/controllers (make filename uppercase as a Class)
   - Then create a View file under app/views with same filename but lowercase
