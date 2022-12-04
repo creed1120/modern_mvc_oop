@@ -1,5 +1,3 @@
-# Site Coding Notes
-
 ## MVC Folder Structure
 1. App
     - /controllers
