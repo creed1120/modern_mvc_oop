@@ -32,7 +32,6 @@ RewriteRule ^(.+)$ index.php?url=$1 [L,QSA]
 ```
 > RewriteRule ^(.+)$ index.php?url<-(is the $_GET variable)=$1<-(paramater value) [L,QSA]
 
-
 2. Add robots.txt file to disallow web crawlers from indexing the site (Google, Bing, etc..)
 ```
 User-agent: *
@@ -40,3 +39,7 @@ User-agent: *
 Disallow: /admin/
 Disallow: /ajax/
 ```
+
+## How to load view files
+  - Create a Controller under app/controllers (make filename uppercase as a Class)
+  - Then create a View file under app/views with same filename but lowercase

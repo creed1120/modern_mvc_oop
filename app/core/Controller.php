@@ -1,4 +1,7 @@
 <?php
+/****************************************
+ * Default Controller for loading Views
+ ****************************************/
 
 class Controller
 {
