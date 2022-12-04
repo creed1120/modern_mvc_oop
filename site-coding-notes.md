@@ -1,4 +1,5 @@
-## Site Coding Notes
+# Site Coding Notes
+
 #### MVC Folder Structure
 1. App
     - /controllers
@@ -40,6 +41,6 @@ Disallow: /admin/
 Disallow: /ajax/
 ```
 
-## How to load view files
+### How to load view files
   - Create a Controller under app/controllers (make filename uppercase as a Class)
   - Then create a View file under app/views with same filename but lowercase
