@@ -44,3 +44,17 @@ Disallow: /ajax/
 ## How to load view files
   - Create a Controller under app/controllers (make filename uppercase as a Class)
   - Then create a View file under app/views with same filename but lowercase
+
+## Setting (Traits)
+  - Traits are used instead of Extending a Class which can only be Extended once, but you can use multiple Traits.
+  > Trait Database {}
+  - Use:
+  > Class Model
+    {
+      use Database;
+
+      function someFunc()
+      {
+
+      }
+    }
