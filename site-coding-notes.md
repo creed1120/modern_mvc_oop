@@ -51,12 +51,12 @@ Disallow: /ajax/
   - Use:
 ``` 
 Class Model
-    {
-      use Database;
+{
+  use Database;
 
-      function someFunc()
-      {
+  function someFunc()
+  {
 
-      }
-    }
+  }
+}
 ```
