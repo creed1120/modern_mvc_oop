@@ -49,7 +49,7 @@ Disallow: /ajax/
   - Traits are used instead of Extending a Class which can only be Extended once, but you can use multiple Traits.
   > Trait Database {}
   - Use:
- ``` 
+``` 
 Class Model
     {
       use Database;
